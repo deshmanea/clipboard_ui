@@ -16,6 +16,7 @@
     <properties>
         <java.version>11</java.version>
         <selenium.version>4.5.0</selenium.version>
+        <webdriver.manager>5.3.0</webdriver.manager>
     </properties>
     <dependencies>
         <dependency>
@@ -37,6 +38,12 @@
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>${selenium.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>${webdriver.manager}</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
